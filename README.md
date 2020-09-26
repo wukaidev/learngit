@@ -11,7 +11,8 @@
 
 ## 3.上传内容到远程仓库
 
-**git push** origin master #把本地仓库提交到远程仓库的master分支中 
+**git push** origin master #把本地仓库提交到远程仓库的master分支中
+
 $ git push origin test:master #提交本地test分支作为远程的master分支
 
 $ git push origin test:test #提交本地test分支作为远程的test分支
