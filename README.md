@@ -9,6 +9,9 @@
 
 **git pull**则是将远程主机的最新内容拉下来后直接合并，即：**git pull = git fetch + git merge**，这样可能会产生冲突，需要手动解决。
 
+git fetch origin master #从远程主机的master分支拉取最新内容 
+git merge FETCH_HEAD #将拉取下来的最新内容合并到当前所在的分支中
+
 ## 3.上传内容到远程仓库
 
 **git push** origin master #把本地仓库提交到远程仓库的master分支中
