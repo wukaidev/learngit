@@ -22,3 +22,4 @@ $ git push origin test:test #提交本地test分支作为远程的test分支
 
 git push origin :test #刚提交到远程的test将被删除，但是本地还会保存的，不用担心。
 
+README.md中新增加的一句，用来测试git stash
