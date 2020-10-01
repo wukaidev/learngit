@@ -1,4 +1,8 @@
 测试git merge合并文件
 merge的时候两边不一致该怎么合并
 本地新增的第三行
+<<<<<<< Updated upstream
 远程增加的第四行
+=======
+本地新增的第四行
+>>>>>>> Stashed changes
